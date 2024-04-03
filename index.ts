@@ -41,7 +41,7 @@ async function makeTodo(todos:string[]){
             
         }
         if (output.choose === "View List"){
-            console.log(chalk.yellow.bold("\t","**** TO DO LIST ********"));
+            console.log(chalk.yellow.bold("\t","*** YOUR TO DO LIST ***"));
             todos.forEach(todo => console.log(chalk.green("\t\t",todo))); 
             console.log(chalk.yellow.bold("\t","*************************"));
         }
